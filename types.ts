@@ -1,9 +1,11 @@
+import React from 'react';
 
 export interface Testimonial {
   name: string;
   role: string;
   quote: string;
   avatar: string;
+  rating: number;
 }
 
 export interface PricingPlan {
@@ -27,4 +29,10 @@ export interface ScheduleClass {
     thursday: string;
     friday: string;
     saturday: string;
+}
+
+export interface Activity {
+    name: string;
+    description: string;
+    imageUrl: string;
 }

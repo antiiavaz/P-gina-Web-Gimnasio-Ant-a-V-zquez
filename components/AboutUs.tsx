@@ -1,6 +1,7 @@
 import React from 'react';
 
-const FeatureCard: React.FC<{ icon: JSX.Element; title: string; description: string }> = ({ icon, title, description }) => (
+// Fix: Replaced JSX.Element with React.ReactNode to resolve namespace error.
+const FeatureCard: React.FC<{ icon: React.ReactNode; title: string; description: string }> = ({ icon, title, description }) => (
   <div className="bg-gray-900/50 p-6 rounded-lg text-center border border-gray-700 hover:border-brand-green hover:scale-105 transition-all duration-300">
     <div className="flex justify-center items-center mb-4 text-brand-green">
       {icon}

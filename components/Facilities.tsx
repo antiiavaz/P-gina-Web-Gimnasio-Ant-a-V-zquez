@@ -1,4 +1,3 @@
-
 import React from 'react';
 import type { Facility } from '../types';
 
@@ -6,32 +5,32 @@ const facilitiesData: Facility[] = [
   {
     name: 'Zona de Cardio',
     description: 'Equipada con las últimas cintas de correr, elípticas y bicicletas estáticas.',
-    imageUrl: 'https://picsum.photos/seed/cardio/600/400',
+    imageUrl: 'https://images.pexels.com/photos/1954524/pexels-photo-1954524.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
   },
   {
     name: 'Sala de Musculación',
     description: 'Amplia selección de pesas libres y máquinas de fuerza para todos los niveles.',
-    imageUrl: 'https://picsum.photos/seed/weights/600/400',
+    imageUrl: 'https://images.pexels.com/photos/949126/pexels-photo-949126.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
   },
   {
     name: 'Estudio de Clases Grupales',
     description: 'Espacio dedicado para Yoga, Zumba, HIIT y más, con sistema de sonido inmersivo.',
-    imageUrl: 'https://picsum.photos/seed/studio/600/400',
+    imageUrl: 'https://images.pexels.com/photos/863977/pexels-photo-863977.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
   },
   {
     name: 'Área de Entrenamiento Funcional',
     description: 'Jaulas, cuerdas, kettlebells y todo lo necesario para un entrenamiento completo.',
-    imageUrl: 'https://picsum.photos/seed/functional/600/400',
+    imageUrl: 'https://images.pexels.com/photos/1552242/pexels-photo-1552242.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
   },
   {
     name: 'Piscina y Sauna',
     description: 'Relájate después de tu entrenamiento en nuestra piscina climatizada y sauna.',
-    imageUrl: 'https://picsum.photos/seed/pool/600/400',
+    imageUrl: 'https://images.pexels.com/photos/1263348/pexels-photo-1263348.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
   },
    {
     name: 'Sala de Spinning',
     description: 'Vive una experiencia de ciclismo indoor única con nuestras clases de alta energía.',
-    imageUrl: 'https://picsum.photos/seed/spinning/600/400',
+    imageUrl: 'https://images.pexels.com/photos/3768916/pexels-photo-3768916.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
   },
 ];
 
