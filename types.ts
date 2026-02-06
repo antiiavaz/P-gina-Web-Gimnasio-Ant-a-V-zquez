@@ -36,3 +36,10 @@ export interface Activity {
     description: string;
     imageUrl: string;
 }
+
+export interface Professional {
+    name: string;
+    role: string;
+    description: string;
+    imageUrl: string;
+}

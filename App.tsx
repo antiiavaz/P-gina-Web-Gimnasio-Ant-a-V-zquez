@@ -7,6 +7,7 @@ import Facilities from './components/Facilities';
 import Activities from './components/Activities';
 import Schedule from './components/Schedule';
 import Pricing from './components/Pricing';
+import Professionals from './components/Professionals';
 import Testimonials from './components/Testimonials';
 import Locations from './components/Locations';
 import Footer from './components/Footer';
@@ -22,6 +23,7 @@ const App: React.FC = () => {
         <Activities />
         <Schedule />
         <Pricing />
+        <Professionals />
         <Testimonials />
         <Locations />
       </main>
